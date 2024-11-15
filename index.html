@@ -1,221 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev_Gaurav_Personal_Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
-</head>
-<body>
-<div id="header">
-    <div class="container">
-        <nav>
-            <img src="images/name_logo.png" class="logo">
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" onclick="closemenu()"></i>
-            </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-            <p>Mobile App Developer</p>
-            <h1>Hi, I'm <span>Gaurav</span><br>Patil From India</h1>
-        </div>
-    </div>
-</div>
-<!-- -----------about---------- -->
-<div id="about">
+<!-- Additional Details Section -->
+<div id="additional-details">
     <div class="container">
         <div class="row">
-            <div class="about-col-1">
-                <img src="images/user2.jpeg">
+            <div class="details-col">
+                <h1 class="sub-title">Gaurav Patil</h1>
+                <p><i class="fas fa-envelope"></i> gauravpatil.97@icloud.com</p>
+                <p><i class="fas fa-phone"></i> 9730001791</p>
+                <p><i class="fas fa-map-marker-alt"></i> Jalgaon, India</p>
+                <p><i class="fas fa-globe"></i> <a href="https://mobiledevgaurav.github.io/DevGaurav/" target="_blank">Portfolio Website</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/gaurav-patil-b6bb96187/?jobid=1234" target="_blank">LinkedIn</a></p>
             </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>I am a passionate mobile app developer dedicated to creating cutting-edge applications that prioritize security and sustainability. By leveraging object-oriented programming principles, I focus on streamlining code, optimizing app size, and maximizing reusability to deliver exceptional user experiences</p>
-
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>Xamarin</span><br>Designing Mobile App Using Xamarin</li>
-                        <li><span>MAUI</span><br>Designing Mobile App Using MAUI</li>
-                        <li><span>C#</span></li>
-                        <li><span>RestApi</span></li>
-                        <li><span>Github</span></li>
-                        <li><span>Postman</span></li>
-                        <li><span>Swagger</span></li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>12/2023 - Current</span><br>Mobile App Developer at Venkateshwara Hatcheries Pvt Ltd, Pune.</li>
-                        <li><span>05/2022 - 11/2023</span><br>Mobile App Developer at WAi Technologies,Pune.</li>
-                        <li><span>11/2021 - 05/2022</span><br>Internship at WAi Technologies,Pune.</li>
-                        <li><span>01/2020 - 02/2020</span><br>Internship at Infinity Automation Systems Private Limited,Pune.</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2021</span><br>Bachelor of Engineering at ET Institute.</li>
-                        <li><span>2016</span><br>HSC at ASC College Chopda.</li>
-                        <li><span>2014</span><br>SSC at Clara Eng Med School, Chopda.</li>
-                    </ul>
-                </div>
+            <div class="details-col">
+                <h2>About Me</h2>
+                <p>Passionate about creating responsive applications for Android and iOS while ensuring they are secure, efficient, and user-friendly. Dedicated to delivering innovative solutions that drive impactful results.</p>
             </div>
         </div>
     </div>
 </div>
-<!-- ---------services---------------- -->
-<div id="services">
+
+<!-- Work Experience Section -->
+<div id="experience">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
+        <h1 class="sub-title">Work Experience</h1>
+        <div class="experience-list">
             <div>
-                <i class="fa-brands fa-android"></i>
-                <h2>Android</h2>
-                <p>I provide services for building applications on MAUI Android, handling platform-specific features, integrating with Android native APIs, and optimizing performance for Android devices.</p>
-               
+                <h3>Software Developer (Xamarin & .NET MAUI)</h3>
+                <h4>Venkateswara Hatcheries Private Limited</h4>
+                <p><span>12/2023 - Present</span></p>
+                <ul>
+                    <li><b>Developed Cross-Platform Mobile Solutions:</b> Created and maintained applications like <b>Live Broiler Booking</b>, <b>VhEggCount</b>, and <b>Vh360</b>.</li>
+                    <li><b>Responsive UI:</b> Built adaptive and responsive interfaces for Android, iOS, and Windows using .NET MAUI.</li>
+                    <li><b>API Integration:</b> Leveraged RESTful API calls with GET and POST methods for secure, real-time data exchange.</li>
+                    <li><b>Play Store Deployment:</b> Successfully deployed apps, ensuring compliance with policies.</li>
+                </ul>
             </div>
             <div>
-                <i class="fab fa-apple"></i>
-                <h2>iOS</h2>
-                <p> I provide services for building applications on MAUI iOS, handling platform-specific features, integrating with iOS native APIs, and optimizing performance for iOS devices</p>
-                
-            </div>
-            <div>
-                <i class="fas fa-code"></i>
-                <h2>RestApi</h2>
-                <p>I provide services for consuming REST APIs in .NET MAUI to interact with backend services, handling tasks such as retrieving data, sending data, and performing CRUD (Create, Read, Update, Delete) operations.</p>
-               
+                <h3>Software Developer (Xamarin)</h3>
+                <h4>WAi Technologies</h4>
+                <p><span>05/2022 - 11/2023</span></p>
+                <ul>
+                    <li>Developed cross-platform apps for Android and iOS using Xamarin.</li>
+                    <li>Created responsive UIs using layouts such as StackLayout, Grid, and FlexLayout.</li>
+                    <li>Implemented robust data binding and integrated RESTful API calls.</li>
+                </ul>
             </div>
         </div>
     </div>
 </div>
-<!-- ----------portfolio------------ -->
- <div id="portfolio">
+
+<!-- Technical Skills Section -->
+<div id="skills">
     <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/Vensales.jpeg">
-                <div class="layer">
-                    <h3>Vensale</h3>
-                    <p>Vensales Business app</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/LiveBroilerBooking.jpeg">
-                <div class="layer">
-                    <h3>Live Broiler Booking</h3>
-                    <p>Live Broiler Booking Business app</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/Vh360.jpeg">
-                <div class="layer">
-                    <h3>Vh360</h3>
-                    <p>Vh360 Marketing App</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="btn">See more</a>
+        <h1 class="sub-title">Technical Skills</h1>
+        <ul class="skill-list">
+            <li>.NET MAUI</li>
+            <li>Xamarin</li>
+            <li>Flutter</li>
+            <li>Firebase</li>
+            <li>Postman</li>
+            <li>Swagger</li>
+            <li>.NET Framework 4.5</li>
+            <li>IIS Deployment</li>
+            <li>GitHub</li>
+        </ul>
     </div>
 </div>
-<!-- ----------contact------------- -->
-<div id="contact">
+
+<!-- Interests Section -->
+<div id="interests">
     <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fas fa-paper-plane"></i> gauravpatil.97@icloud.com</p>
-                <p><i class="fas fa-phone-square-alt"></i> 9595402012</p>
-                <div class="social-icons">
-                    <!-- <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a> -->
-                    <!-- <a href=""><i class="fab fa-twitter-square"></i></a> -->
-                    <a href="https://www.instagram.com/jalgaon_cha_harry_potter/?utm_source=qr"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/gaurav-patil-b6bb96187"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <a href="images/Gaurav_resume.pdf" download class="btn btn2">Download CV</a>
-            </div>
-           <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div> 
-        </div>
+        <h1 class="sub-title">Interests</h1>
+        <ul class="interest-list">
+            <li>Photography</li>
+            <li>Trekking and Travelling</li>
+            <li>Mobile Application Development</li>
+            <li>Freelancing</li>
+        </ul>
     </div>
-  
 </div>
-
-
-
-<script>
-
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-
-</script>
-
-<script>
-
-    var sidemeu = document.getElementById("sidemenu");
-
-    function openmenu(){
-        sidemeu.style.right = "0";
-    }
-    function closemenu(){
-        sidemeu.style.right = "-200px";
-    }
-
-</script>
-<script>
-    const scriptURL = '< add you own link here >' // add your own app script link here
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-</body>
-</html>
