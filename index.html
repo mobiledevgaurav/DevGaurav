@@ -23,9 +23,7 @@
       <div class="logo">Gaurav Patil</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span></span><span></span><span></span>
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -34,6 +32,7 @@
         </div>
       </div>
     </nav>
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="gp1.jpg" alt="Profile Pic" />
@@ -41,199 +40,140 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Gaurav Patil</h1>
-        <p class="section__text__p2">Software Developer</p>
+        <p class="section__text__p2">Software Developer – .NET MAUI | Xamarin | Flutter</p>
         <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('Gaurav_Patil_Software_Developer')"
-          >
+          <button class="btn btn-color-2" onclick="window.open('Gaurav_Patil_Software_Developer.pdf')">
             Download CV
           </button>
-          <button class="btn btn-color-1">
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
             Contact Info
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/in/gaurav-patil-b6bb96187'"
-          />
-          <!-- <img
-            src="github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          /> -->
+          <img src="linkedin.png" alt="LinkedIn profile" class="icon"
+            onclick="location.href='https://linkedin.com/in/gaurav-patil-b6bb96187'" />
+          <img src="github.png" alt="Portfolio" class="icon"
+            onclick="location.href='https://mobiledevgaurav.github.io/DevGaurav/'" />
         </div>
       </div>
     </section>
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
-          <img
-            src="imgc.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
+          <img src="imgc.jpg" alt="Profile picture" class="about-pic" />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <img
-                src="experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
+              <img src="experience.png" alt="Experience icon" class="icon" />
               <h3>Experience</h3>
-              <p>2+ years <br />Software Development</p>
+              <p>2+ years<br />Mobile App Development</p>
             </div>
             <div class="details-container">
-              <img
-                src="education.png"
-                alt="Education icon"
-                class="icon"
-              />
+              <img src="education.png" alt="Education icon" class="icon" />
               <h3>Education</h3>
-              <p>BE. Bachelors Degree</p>
+              <p>B.E. – Information Technology</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Passionate about creating responsive applications for Android and iOS while ensuring they are secure, efficient, and user-friendly. Dedicated to delivering
-              innovative solutions that drive impactful results.
+              Results-driven Mobile App Developer with 2+ years of experience in building cross-platform applications using .NET MAUI and Xamarin. Skilled in designing responsive UIs, integrating REST APIs, and deploying apps on Play Store. Passionate about secure, scalable, and user-centric mobile solutions.
             </p>
           </div>
         </div>
       </div>
-    
     </section>
+
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <!-- .NET MAUI Experience -->
           <div class="details-container">
             <h2 class="experience-sub-title">Mobile App Development</h2>
             <div class="article-container">
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>.NET MAUI</h3>
-                  <p>Experienced</p>
-                </div>
+                <img src="checkmark.png" class="icon" />
+                <div><h3>.NET MAUI</h3><p>Experienced</p></div>
               </article>
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Xamarin</h3>
-                  <p>Experienced</p>
-                </div>
+                <img src="checkmark.png" class="icon" />
+                <div><h3>Xamarin</h3><p>Experienced</p></div>
               </article>
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Flutter</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="checkmark.png" class="icon" />
+                <div><h3>Flutter</h3><p>Intermediate</p></div>
               </article>
             </div>
           </div>
-    
-          <!-- Web and API Development Experience -->
+
           <div class="details-container">
             <h2 class="experience-sub-title">Web Development & APIs</h2>
             <div class="article-container">
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>.NET Framework 4.5</h3>
-                  <p>Basic</p>
-                </div>
+                <img src="checkmark.png" class="icon" />
+                <div><h3>.NET Framework 4.5</h3><p>Basic</p></div>
               </article>
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>IIS Deployment</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="checkmark.png" class="icon" />
+                <div><h3>IIS Deployment</h3><p>Intermediate</p></div>
               </article>
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="checkmark.png" class="icon" />
+                <div><h3>Git</h3><p>Intermediate</p></div>
               </article>
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Postman, Swagger</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="checkmark.png" class="icon" />
+                <div><h3>Postman, Swagger</h3><p>Intermediate</p></div>
               </article>
             </div>
           </div>
         </div>
+
+        <div class="project-experience">
+          <h3>Recent Roles</h3>
+          <p><strong>Venkateswara Hatcheries Pvt. Ltd. (Dec 2023 – Present)</strong><br />
+            .NET MAUI & Xamarin Developer<br />
+            • Built Live Broiler Booking, VhEggCount, and Vh360 apps<br />
+            • Integrated REST APIs, MVVM & responsive UIs<br />
+            • Deployed to Google Play Store, managed full app lifecycle
+          </p>
+          <p><strong>WAi Technologies (May 2022 – Nov 2023)</strong><br />
+            Xamarin Developer<br />
+            • Created Android/iOS apps with interactive UIs<br />
+            • Worked with Grid, FlexLayout, ScrollView & data binding<br />
+            • Consumed APIs using Refit and Postman
+          </p>
+        </div>
       </div>
-     
     </section>
-    
- 
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img
-            src="email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
+          <img src="email.png" class="icon contact-icon email-icon" />
           <p><a href="mailto:devgaurav.patil@gmail.com">devgaurav.patil@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <img src="phone.png" class="icon contact-icon" />
+          <p><a href="tel:+919595402012">+91 9595402012</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="location.png" class="icon contact-icon" />
+          <p>Pune, Maharashtra, India</p>
+        </div>
+        <div class="contact-info-container">
+          <img src="linkedin.png" class="icon contact-icon" />
+          <p><a href="https://linkedin.com/in/gaurav-patil-b6bb96187/">LinkedIn</a></p>
         </div>
       </div>
     </section>
+
     <footer>
       <nav>
         <div class="nav-links-container">
